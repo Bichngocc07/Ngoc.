@@ -7,10 +7,67 @@
 </head>
 <body>
     <form>
-        <label for="Họ và tên">Họ và tên: </label>
-        <input id="Họ và tên" type="Họ và tên" name="Họ và tên"><br>
-        <label for="dob">Ngày sinh</label>
-        <input id="dob" type="time" name="dob">
+        <div class="form-group">
+            <label for="fullname">Họ và tên: </label>
+            <input type="text" id="fullname" name="fullname" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="dob">Ngày sinh: </label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        
+        <div class="form-group">
+            <label>Giới tính: </label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Nam</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Nữ</label>
+        </div>
+        
+        <div class="form-group">
+            <label for="phone">Số điện thoại:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="major">Chuyên ngành: </label>
+            <input type="text" id="major" name="major" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="year">Năm nhập học: </label>
+            <input type="number" id="year" name="year" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="gpa">Điểm GPA: </label>
+            <input type="number" step="0.01" id="gpa" name="gpa" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="address">Địa chỉ: </label>
+            <textarea id="address" name="address" rows="2" required></textarea>
+        </div>
+        
+        <div class="form-group">
+            <label for="class">Lớp học: </label>
+            <select id="class" name="class">
+                <option value="lop1">Lớp 1</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="register-date">Ngày đăng ký học: </label>
+            <input type="datetime-local" id="register-date" name="register-date" required>
+        </div>
+        
+        <button>Gửi thông tin</button>
     </form>
 </body>
 </html>
