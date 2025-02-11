@@ -1,0 +1,7 @@
+body{
+    display: flex;
+}
+.anh{
+    margin-left: 50px;
+    width: 35%;
+}
