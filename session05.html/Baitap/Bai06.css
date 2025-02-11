@@ -1,0 +1,15 @@
+.chu{
+    text-align: center;
+    color: red;
+}
+p.solid{
+    border-style: solid;
+    text-align: center;
+}
+p.vien{
+    background-color: rgb(228, 226, 222);
+}
+.vien{
+    color: #000000;
+    border-left:3px solid rgb(218, 27, 27);
+}
