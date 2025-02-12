@@ -1,3 +1,12 @@
 .content{
-    justify-content: center;
+    background-color: rgb(18, 212, 219);
+    color: hsl(208, 100%, 97%);
+    text-align: center;
+}
+.xinchao{
+    margin-left: 50px;
+    width: 35%;
+}
+.file{
+    border-radius: 10px;
 }
