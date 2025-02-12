@@ -36,7 +36,21 @@
     border-radius: 5px;
     border:0;
     font-weight: 700;
-    opacity: 0.5;
     position: relative;
-    left:550px;
+    left:700px;
+}
+.Feature button{
+        margin-top: 13px;
+        width: 500px;
+        padding: 10px;
+        background-color: rgb(207, 72, 72);
+        color: aliceblue;
+        margin-left: 5px;
+
+}
+.Contact{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding:5px;
 }
